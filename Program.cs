@@ -6,9 +6,10 @@ class App
 {
     static void Main(string[] args)
     {
-        LoopsAndBrachs SegundoEXE = new LoopsAndBrachs();
+        FirstClass SegundoEXE = new FirstClass();
+        SecoundClass TerceiroEXE = new SecoundClass();
 
-        SegundoEXE.DecimoPrimeiro();
+        TerceiroEXE.DecimoSegundo();
     }
 
 

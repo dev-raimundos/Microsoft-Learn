@@ -3,7 +3,7 @@
 
 namespace Microsoft_Learn
 {
-    internal class LoopsAndBrachs
+    internal class FirstClass
     {
         public void Nono()
         {
