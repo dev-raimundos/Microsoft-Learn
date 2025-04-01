@@ -61,7 +61,7 @@ class App
 
     }
 
-    //Double tem um alcance maior mas precisão limitada se comparado com decimal
+    //Double tem um alcance maior, mas precisão limitada se comparado com decimal
     static void Sexto()
     {
         double third = 1.0 / 3.0;
@@ -71,14 +71,14 @@ class App
     static void Setimo()
     {
         Console.WriteLine("Precisão do tipo double");
-        double max_double = double.MaxValue;
-        double min_double = double.MinValue;
-        Console.WriteLine($"The range of double is {min_double} to {max_double}");
+        double maxDouble = double.MaxValue;
+        double minDouble = double.MinValue;
+        Console.WriteLine($"The range of double is {minDouble} to {maxDouble}");
 
         Console.WriteLine("\nPrcisão do tipo decimal");
-        decimal min_decimal = decimal.MinValue;
-        decimal max_decimal = decimal.MaxValue;
-        Console.WriteLine($"The range of the decimal type is {min_decimal} to {max_decimal}");
+        decimal minDecimal = decimal.MinValue;
+        decimal maxDecimal = decimal.MaxValue;
+        Console.WriteLine($"The range of the decimal type is {minDecimal} to {maxDecimal}");
     }
 
     static void Oitavo()
