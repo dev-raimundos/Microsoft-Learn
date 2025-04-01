@@ -6,9 +6,9 @@ class App
 {
     static void Main(string[] args)
     {
-        LoopsAndBrachs LoopsAndBrachs = new LoopsAndBrachs();
+        LoopsAndBrachs SegundoEXE = new LoopsAndBrachs();
 
-        LoopsAndBrachs.Nono();
+        SegundoEXE.DecimoPrimeiro();
     }
 
 
@@ -75,7 +75,7 @@ class App
         double minDouble = double.MinValue;
         Console.WriteLine($"The range of double is {minDouble} to {maxDouble}");
 
-        Console.WriteLine("\nPrcisão do tipo decimal");
+        Console.WriteLine("\nPrecisão do tipo decimal");
         decimal minDecimal = decimal.MinValue;
         decimal maxDecimal = decimal.MaxValue;
         Console.WriteLine($"The range of the decimal type is {minDecimal} to {maxDecimal}");
@@ -101,7 +101,7 @@ class App
     static void areaDoCirculo()
     {
         Console.WriteLine("informe o tamanho do raio: ");
-        double raio = Convert.ToDouble(Console.ReadLine()); // Converte a entrada para double
+        double raio = Convert.ToDouble(Console.ReadLine()); 
         double area = Math.PI * (raio * raio);
 
         Console.WriteLine($"A área do circulo é {area}");
